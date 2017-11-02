@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mulu Travel Chrome Plugin</title>
+    <link href="mulu_styles.css" rel="stylesheet" type="text/css">
+    <link href="auto-complete.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="constants.js"></script>
+    <script type="text/javascript" src="utils.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+    <script type="text/javascript" src="auto-complete.min.js"></script>
+
+</head>
+
+<body>
+<div class="modal-header">
+    <a id="link-reset-popup" class="left back-btn" href="#" style="display: none;"><img src="images/back.svg"></a>
+    <a href="popup.html">
+        <img src="images/logo.svg">
+    </a>
+</div>
+<div class="modal-body">
+    <div id="add-places-wrapper">
+        <h1 class="text-center">Add a new place</h1>
+        <input id="search-places-input" class="text-field search-field mb-15" type="text" placeholder="Search places">
+
+        <div id="places-added-wrapper"></div>
+    </div>
+    <div id="ask-friend-wrapper">
+        <h1 class="text-center">or</h1>
+        <h1 class="text-center">Ask friend for a recommendation</h1>
+        <input id="recommendation-name" class="text-field search-field mb-15" type="text" placeholder="City name">
+
+        <div class="text-center">
+            <a id="link-ask-recommendation" href="#" class="btn-mulu">Ask Recommendation</a>
+        </div>
+    </div>
+    <div id="ask-friend-shares-wrapper" style="display: none;">
+        <h1 class="text-center">Complete your ask for a recommendation</h1>
+        <div id="ask-friend-shares">
+            <div class="text-center">
+                <a href="ask-mail.html" class="btn-rounded btn-mail">
+                    <img src="images/envelope.svg">
+                </a>
+                <a id="link-share-whatsapp" target="_blank" class="btn-rounded btn-wa text-center">
+                    <img src="images/whatsapp.svg">
+                </a>
+                <a id="link-share-facebook" target="_blank" class="btn-rounded btn-fb text-center">
+                    <img src="images/facebook.svg">
+                </a>
+                <a id="link-share-twitter" target="_blank" class="btn-rounded btn-tw text-center">
+                    <img src="images/twitter.svg">
+                </a>
+                <a href="ask-sms.html" class="btn-rounded btn-sms text-center">
+                    <img src="images/sms.svg">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="add-guides-wrapper" style="display: none;">
+        <h2 class="text-center">Add these places to one of My Guides</h2>
+        <input id="guide-name" name="guide-name" class="text-field search-field mb-15" type="text"
+               placeholder="Create a guide or add places to your guides">
+
+        <div class="text-center">
+            <a id="link-add-guide" href="#" class="btn-mulu">Add to My Guides</a>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAU01NI6ka08FpmDNtSEAGKqJdcbP-a-RY&libraries=places&callback=initMap"></script>
+</html>

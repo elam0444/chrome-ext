@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Mulu Travel",
+  "description": "This extension allows you to save your guides in Mulu, share with your friends and ask for recommendations.",
+  "version": "1.4.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "web_accessible_resources": [
+    "icon.png",
+    "Avenir-Black.woff",
+    "Avenir-Light.woff",
+    "Avenir-Medium.woff",
+    "mulu-border-btn.png"
+  ],
+  "permissions": [
+    "storage",
+    "http://admin.mulutravel.com/*"
+  ],
+  "content_security_policy": "script-src 'self' https://maps.googleapis.com https://maps.gstatic.com; object-src 'self'"
+
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="15px" viewBox="0 0 9 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1090.000000, -304.000000)" fill-rule="nonzero" fill="#4465B8">
+            <g id="widget-init" transform="translate(939.000000, 91.000000)">
+                <g id="add-recommendation" transform="translate(0.000000, 8.000000)">
+                    <g id="share" transform="translate(45.000000, 195.000000)">
+                        <g id="Group-5" transform="translate(93.000000, 0.000000)">
+                            <g id="facebook" transform="translate(13.333333, 10.000000)">
+                                <path d="M7.75862069,0.107758621 L7.75862069,2.47844828 L6.34877874,2.47844828 C5.83393199,2.47844828 5.48670977,2.5862069 5.30711207,2.80172414 C5.12751437,3.01724138 5.03771552,3.34051724 5.03771552,3.77155172 L5.03771552,5.46875 L7.66882184,5.46875 L7.31860632,8.12679598 L5.03771552,8.12679598 L5.03771552,14.9425287 L2.28987069,14.9425287 L2.28987069,8.12679598 L0,8.12679598 L0,5.46875 L2.28987069,5.46875 L2.28987069,3.51113506 C2.28987069,2.39762931 2.60117337,1.5340637 3.22377874,0.920438218 C3.8463841,0.306812739 4.67552682,0 5.7112069,0 C6.59123563,0 7.2737069,0.0359195402 7.75862069,0.107758621 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
